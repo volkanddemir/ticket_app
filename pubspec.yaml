@@ -1,0 +1,40 @@
+name: ornek_proje
+description: "A new Flutter project."
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - photos/
+
+  fonts:
+    - family: Nunito
+      fonts:
+        - asset: font/Nunito-Regular.ttf
+        - asset: font/Nunito-Light.ttf
+          weight: 500
+        - asset: font/Nunito-Medium.ttf
+          weight: 500
+        - asset: font/Nunito-SemiBold.ttf
+          weight: 500
+        - asset: font/Nunito-Bold.ttf
+          weight: 700
